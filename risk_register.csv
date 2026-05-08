@@ -1,0 +1,7 @@
+Risk ID,Date Identified,Risk Category,Risk Description,Owner, Likelihood (1-5), Impact (1-5),Risk Score (L*I),Risk Level (Critical/High/Med/Low),Mitigation / Treatment Plan
+R-01,2026-05-01,Disaster Recovery,"Lack of a DR and BC plan, leading to prolonged downtime from major incident",IT Manager,4,5,20,Critical,"Develop and document a DR/BC plan; implement and test offline backups."
+R-02,2026-05-01,Access Control,No centralized IAM with MFA enabling account takeover,IT Director,5,3,15,High,"Procure and implement an IAM solution (e.g., Azure AD); enforce MFA for all users."
+R-03,2026-05-01,Vulnerability Management,Outdated patches on critical servers exposing known exploits,System Admin,5,3,15,High,"Establish a formal patch management policy; automate patching where possible."
+R-04,2026-05-01,Asset Management,Lack of a centralized asset inventory,IT Manager,3,3,9,Medium,"Deploy a network scanning tool to catalog all assets quarterly."
+R-05,2026-05-01,Security Awareness,Lack of employee security training,HR Manager,4,2,8,Medium,"Purchase annual security awareness training for all employees."
+R-06,2026-05-01,Policy,Weak password policy increasing brute-force risks,IT Director,3,2,6,Low,"Update the password policy to require 12+ characters and complexity."
